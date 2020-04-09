@@ -35,7 +35,7 @@ class App extends React.Component {
         eventHandlers={this.sessionEvents}
         onError={this.onError}
         >
-
+        Simple OpenTok React Application
         {this.state.error ? <div id="error">{this.state.error}</div> : null}
 
         <ConnectionStatus connected={this.state.connected} />
