@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import config from './config';
+import config from './config_example';
 
 ReactDOM.render(<App
   apiKey={config.API_KEY}
